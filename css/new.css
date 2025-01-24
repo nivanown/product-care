@@ -19,7 +19,7 @@
   color: #000;
   font-size: 22px;
   font-family: 'Bitter', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   line-height: 26px;
   }
@@ -315,6 +315,10 @@
   line-height: 22px;
   }
 
+.recommendations p .pc-br {
+  display: none;
+  }
+
 }
 
 /* 1279 */
@@ -533,7 +537,7 @@
   }
 
 .rules-care-info li {
-  font-size: 10px;
+  font-size: 12px;
   }
 
 .violations-section .ayris-silk-title {
@@ -542,7 +546,7 @@
   }
 
 .violations-info li {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   }
 
@@ -577,7 +581,7 @@
   }
 
 .recommendations p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   }
 
@@ -587,12 +591,10 @@
 @media (max-width: 480px) {
 
 .rules-care-section .ayris-silk-title {
-  font-weight: 500;
   text-align: center;
   }
 
 .violations-section .ayris-silk-title {
-  font-weight: 500;
   text-align: center;
   }
 
@@ -602,6 +604,10 @@
 
 .pc-br {
   display: none;
+  }
+
+.recommendations p .mobile-br {
+  display: block;
   }
 
 }
